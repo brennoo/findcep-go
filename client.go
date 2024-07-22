@@ -6,8 +6,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/stainless-sdks/findcep-go/internal/requestconfig"
-	"github.com/stainless-sdks/findcep-go/option"
+	"github.com/brennoo/findcep-go/internal/requestconfig"
+	"github.com/brennoo/findcep-go/option"
 )
 
 // Client creates a struct with services and top level methods that help with

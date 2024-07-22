@@ -3,7 +3,7 @@
 package findcep
 
 import (
-	"github.com/stainless-sdks/findcep-go/option"
+	"github.com/brennoo/findcep-go/option"
 )
 
 // GeolocationDistanceFromCepService contains methods and other services that help

@@ -1,4 +1,4 @@
-module github.com/stainless-sdks/findcep-go
+module github.com/brennoo/findcep-go
 
 go 1.19
 

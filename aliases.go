@@ -3,7 +3,7 @@
 package findcep
 
 import (
-	"github.com/stainless-sdks/findcep-go/internal/apierror"
+	"github.com/brennoo/findcep-go/internal/apierror"
 )
 
 type Error = apierror.Error
