@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/stainless-sdks/findcep-go/internal/requestconfig"
-	"github.com/stainless-sdks/findcep-go/option"
+	"github.com/brennoo/findcep-go/internal/requestconfig"
+	"github.com/brennoo/findcep-go/option"
 )
 
 // GeolocationDistanceFromCepToLatlonService contains methods and other services

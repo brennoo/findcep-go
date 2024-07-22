@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stainless-sdks/findcep-go/internal"
-	"github.com/stainless-sdks/findcep-go/internal/apierror"
-	"github.com/stainless-sdks/findcep-go/internal/apiform"
-	"github.com/stainless-sdks/findcep-go/internal/apiquery"
+	"github.com/brennoo/findcep-go/internal"
+	"github.com/brennoo/findcep-go/internal/apierror"
+	"github.com/brennoo/findcep-go/internal/apiform"
+	"github.com/brennoo/findcep-go/internal/apiquery"
 )
 
 func getDefaultHeaders() map[string]string {
