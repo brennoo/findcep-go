@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/findcep-go"
-	"github.com/stainless-sdks/findcep-go/internal"
-	"github.com/stainless-sdks/findcep-go/option"
+	"github.com/brennoo/findcep-go"
+	"github.com/brennoo/findcep-go/internal"
+	"github.com/brennoo/findcep-go/option"
 )
 
 type closureTransport struct {
