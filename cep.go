@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/stainless-sdks/findcep-go/internal/apijson"
-	"github.com/stainless-sdks/findcep-go/internal/requestconfig"
-	"github.com/stainless-sdks/findcep-go/option"
+	"github.com/brennoo/findcep-go/internal/apijson"
+	"github.com/brennoo/findcep-go/internal/requestconfig"
+	"github.com/brennoo/findcep-go/option"
 )
 
 // CepService contains methods and other services that help with interacting with

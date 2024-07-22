@@ -6,10 +6,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/stainless-sdks/findcep-go/internal/apijson"
-	"github.com/stainless-sdks/findcep-go/internal/param"
-	"github.com/stainless-sdks/findcep-go/internal/requestconfig"
-	"github.com/stainless-sdks/findcep-go/option"
+	"github.com/brennoo/findcep-go/internal/apijson"
+	"github.com/brennoo/findcep-go/internal/param"
+	"github.com/brennoo/findcep-go/internal/requestconfig"
+	"github.com/brennoo/findcep-go/option"
 )
 
 // EnderecoTemplateCodigoIbgeService contains methods and other services that help

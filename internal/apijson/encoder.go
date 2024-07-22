@@ -12,7 +12,7 @@ import (
 
 	"github.com/tidwall/sjson"
 
-	"github.com/stainless-sdks/findcep-go/internal/param"
+	"github.com/brennoo/findcep-go/internal/param"
 )
 
 var encoders sync.Map // map[encoderEntry]encoderFunc

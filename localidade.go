@@ -3,8 +3,8 @@
 package findcep
 
 import (
-	"github.com/stainless-sdks/findcep-go/internal/apijson"
-	"github.com/stainless-sdks/findcep-go/option"
+	"github.com/brennoo/findcep-go/internal/apijson"
+	"github.com/brennoo/findcep-go/option"
 )
 
 // LocalidadeService contains methods and other services that help with interacting

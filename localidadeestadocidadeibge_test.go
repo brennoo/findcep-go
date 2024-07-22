@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stainless-sdks/findcep-go"
-	"github.com/stainless-sdks/findcep-go/internal/testutil"
-	"github.com/stainless-sdks/findcep-go/option"
+	"github.com/brennoo/findcep-go"
+	"github.com/brennoo/findcep-go/internal/testutil"
+	"github.com/brennoo/findcep-go/option"
 )
 
 func TestLocalidadeEstadoCidadeIbgeGet(t *testing.T) {
