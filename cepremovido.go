@@ -39,7 +39,7 @@ func (r *CepRemovidoService) Get(ctx context.Context, cepRemovido string, opts .
 		err = errors.New("missing required cep_removido parameter")
 		return
 	}
-	path := fmt.Sprintf("v1/cep/removido/cep_removido.json")
+	path := fmt.Sprintf("v1/cep/removido/%s.json", cepRemovido)
 	err = requestconfig.ExecuteNewRequest(ctx, http.MethodGet, path, nil, &res, opts...)
 	return
 }

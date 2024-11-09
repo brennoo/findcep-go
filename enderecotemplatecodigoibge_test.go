@@ -27,10 +27,10 @@ func TestEnderecoTemplateCodigoIbgeNewWithOptionalParams(t *testing.T) {
 	_, err := client.Enderecos.Templates.CodigoIbge.New(context.TODO(), findcep.EnderecoTemplateCodigoIbgeNewParams{
 		ID: findcep.F("pesquisa_endereco_por_codigo_ibge"),
 		Params: findcep.F(findcep.EnderecoTemplateCodigoIbgeNewParamsParams{
-			From:        findcep.F(int64(0)),
-			Size:        findcep.F(int64(10)),
-			QueryString: findcep.F("avenida pacaembu"),
 			CodigoIbge:  findcep.F("codigo_ibge"),
+			From:        findcep.F(int64(0)),
+			QueryString: findcep.F("avenida pacaembu"),
+			Size:        findcep.F(int64(10)),
 		}),
 	})
 	if err != nil {
