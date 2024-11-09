@@ -28,8 +28,8 @@ func TestEnderecoTemplateUfNewWithOptionalParams(t *testing.T) {
 		ID: findcep.F("pesquisa_endereco_por_uf"),
 		Params: findcep.F(findcep.EnderecoTemplateUfNewParamsParams{
 			From:        findcep.F(int64(0)),
-			Size:        findcep.F(int64(10)),
 			QueryString: findcep.F("Av Prof Gioia Martins"),
+			Size:        findcep.F(int64(10)),
 			Uf:          findcep.F("sp"),
 		}),
 	})
