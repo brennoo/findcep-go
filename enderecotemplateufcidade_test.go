@@ -27,10 +27,10 @@ func TestEnderecoTemplateUfCidadeNewWithOptionalParams(t *testing.T) {
 	_, err := client.Enderecos.Templates.Uf.Cidade.New(context.TODO(), findcep.EnderecoTemplateUfCidadeNewParams{
 		ID: findcep.F("pesquisa_endereco_por_uf_cidade"),
 		Params: findcep.F(findcep.EnderecoTemplateUfCidadeNewParamsParams{
-			From:        findcep.F(int64(0)),
-			Size:        findcep.F(int64(10)),
-			QueryString: findcep.F("Av Prof Gioia Martins"),
 			Cidade:      findcep.F("sao paulo"),
+			From:        findcep.F(int64(0)),
+			QueryString: findcep.F("Av Prof Gioia Martins"),
+			Size:        findcep.F(int64(10)),
 			Uf:          findcep.F("sp"),
 		}),
 	})

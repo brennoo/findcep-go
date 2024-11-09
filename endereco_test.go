@@ -28,8 +28,8 @@ func TestEnderecoPesquisaWithOptionalParams(t *testing.T) {
 		ID: findcep.F("pesquisa_endereco"),
 		Params: findcep.F(findcep.EnderecoPesquisaParamsParams{
 			From:        findcep.F(int64(0)),
-			Size:        findcep.F(int64(10)),
 			QueryString: findcep.F("avenida pacaembu"),
+			Size:        findcep.F(int64(10)),
 		}),
 	})
 	if err != nil {

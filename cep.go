@@ -42,7 +42,7 @@ func (r *CepService) Get(ctx context.Context, cep string, opts ...option.Request
 		err = errors.New("missing required cep parameter")
 		return
 	}
-	path := fmt.Sprintf("v1/cep/cep.json")
+	path := fmt.Sprintf("v1/cep/%s.json", cep)
 	err = requestconfig.ExecuteNewRequest(ctx, http.MethodGet, path, nil, &res, opts...)
 	return
 }
