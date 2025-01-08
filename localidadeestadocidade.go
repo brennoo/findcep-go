@@ -8,7 +8,6 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/brennoo/findcep-go/internal/apijson"
 	"github.com/brennoo/findcep-go/internal/requestconfig"
 	"github.com/brennoo/findcep-go/option"
 )
@@ -42,29 +41,4 @@ func (r *LocalidadeEstadoCidadeService) List(ctx context.Context, uf string, opt
 	path := fmt.Sprintf("v1/localidades/estado/%s/cidades", uf)
 	err = requestconfig.ExecuteNewRequest(ctx, http.MethodGet, path, nil, &res, opts...)
 	return
-}
-
-type LocalidadeEstadoCidadeListResponse struct {
-	HashKey string                                 `json:"hash_key"`
-	Nome    string                                 `json:"nome"`
-	URLKey  string                                 `json:"url_key"`
-	JSON    localidadeEstadoCidadeListResponseJSON `json:"-"`
-}
-
-// localidadeEstadoCidadeListResponseJSON contains the JSON metadata for the struct
-// [LocalidadeEstadoCidadeListResponse]
-type localidadeEstadoCidadeListResponseJSON struct {
-	HashKey     apijson.Field
-	Nome        apijson.Field
-	URLKey      apijson.Field
-	raw         string
-	ExtraFields map[string]apijson.Field
-}
-
-func (r *LocalidadeEstadoCidadeListResponse) UnmarshalJSON(data []byte) (err error) {
-	return apijson.UnmarshalRoot(data, r)
-}
-
-func (r localidadeEstadoCidadeListResponseJSON) RawJSON() string {
-	return r.raw
 }

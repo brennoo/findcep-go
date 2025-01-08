@@ -6,7 +6,6 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/brennoo/findcep-go/internal/apijson"
 	"github.com/brennoo/findcep-go/internal/requestconfig"
 	"github.com/brennoo/findcep-go/option"
 )
@@ -36,52 +35,4 @@ func (r *LocalidadeEstadoService) List(ctx context.Context, opts ...option.Reque
 	path := "v1/localidades/estados"
 	err = requestconfig.ExecuteNewRequest(ctx, http.MethodGet, path, nil, &res, opts...)
 	return
-}
-
-type LocalidadeEstadoListResponse struct {
-	Nome   string                             `json:"nome"`
-	Region LocalidadeEstadoListResponseRegion `json:"region"`
-	Sigla  string                             `json:"sigla"`
-	JSON   localidadeEstadoListResponseJSON   `json:"-"`
-}
-
-// localidadeEstadoListResponseJSON contains the JSON metadata for the struct
-// [LocalidadeEstadoListResponse]
-type localidadeEstadoListResponseJSON struct {
-	Nome        apijson.Field
-	Region      apijson.Field
-	Sigla       apijson.Field
-	raw         string
-	ExtraFields map[string]apijson.Field
-}
-
-func (r *LocalidadeEstadoListResponse) UnmarshalJSON(data []byte) (err error) {
-	return apijson.UnmarshalRoot(data, r)
-}
-
-func (r localidadeEstadoListResponseJSON) RawJSON() string {
-	return r.raw
-}
-
-type LocalidadeEstadoListResponseRegion struct {
-	Nome  string                                 `json:"nome"`
-	Sigla string                                 `json:"sigla"`
-	JSON  localidadeEstadoListResponseRegionJSON `json:"-"`
-}
-
-// localidadeEstadoListResponseRegionJSON contains the JSON metadata for the struct
-// [LocalidadeEstadoListResponseRegion]
-type localidadeEstadoListResponseRegionJSON struct {
-	Nome        apijson.Field
-	Sigla       apijson.Field
-	raw         string
-	ExtraFields map[string]apijson.Field
-}
-
-func (r *LocalidadeEstadoListResponseRegion) UnmarshalJSON(data []byte) (err error) {
-	return apijson.UnmarshalRoot(data, r)
-}
-
-func (r localidadeEstadoListResponseRegionJSON) RawJSON() string {
-	return r.raw
 }
