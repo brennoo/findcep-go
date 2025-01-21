@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.1-alpha.6 (2025-01-21)
+
+Full Changelog: [v0.0.1-alpha.5...v0.0.1-alpha.6](https://github.com/brennoo/findcep-go/compare/v0.0.1-alpha.5...v0.0.1-alpha.6)
+
+### Chores
+
+* **internal:** codegen related update ([#20](https://github.com/brennoo/findcep-go/issues/20)) ([ef5c14c](https://github.com/brennoo/findcep-go/commit/ef5c14ce644d5b5d70fec33db8d0200d9bbb57c6))
+
 ## 0.0.1-alpha.5 (2025-01-09)
 
 Full Changelog: [v0.0.1-alpha.4...v0.0.1-alpha.5](https://github.com/brennoo/findcep-go/compare/v0.0.1-alpha.4...v0.0.1-alpha.5)
