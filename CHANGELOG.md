@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.1-alpha.8 (2025-02-01)
+
+Full Changelog: [v0.0.1-alpha.7...v0.0.1-alpha.8](https://github.com/brennoo/findcep-go/compare/v0.0.1-alpha.7...v0.0.1-alpha.8)
+
+### Bug Fixes
+
+* fix unicode encoding for json ([#27](https://github.com/brennoo/findcep-go/issues/27)) ([5984217](https://github.com/brennoo/findcep-go/commit/5984217380f2b02f3ceeaddb8a0d329b29822265))
+
 ## 0.0.1-alpha.7 (2025-01-29)
 
 Full Changelog: [v0.0.1-alpha.6...v0.0.1-alpha.7](https://github.com/brennoo/findcep-go/compare/v0.0.1-alpha.6...v0.0.1-alpha.7)
