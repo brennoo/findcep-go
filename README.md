@@ -24,7 +24,7 @@ Or to pin the version:
 <!-- x-release-please-start-version -->
 
 ```sh
-go get -u 'github.com/brennoo/findcep-go@v0.0.1-alpha.7'
+go get -u 'github.com/brennoo/findcep-go@v0.0.1-alpha.8'
 ```
 
 <!-- x-release-please-end -->
@@ -237,28 +237,6 @@ client.Enderecos.Pesquisa(
 	findcep.EnderecoPesquisaParams{},
 	option.WithMaxRetries(5),
 )
-```
-
-### Accessing raw response data (e.g. response headers)
-
-You can access the raw HTTP response data by using the `option.WithResponseInto()` request option. This is useful when
-you need to examine response headers, status codes, or other details.
-
-```go
-// Create a variable to store the HTTP response
-var response *http.Response
-endereco, err := client.Enderecos.Pesquisa(
-	context.TODO(),
-	findcep.EnderecoPesquisaParams{},
-	option.WithResponseInto(&response),
-)
-if err != nil {
-	// handle error
-}
-fmt.Printf("%+v\n", endereco)
-
-fmt.Printf("Status Code: %d\n", response.StatusCode)
-fmt.Printf("Headers: %+#v\n", response.Header)
 ```
 
 ### Making custom/undocumented requests
