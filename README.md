@@ -24,7 +24,7 @@ Or to pin the version:
 <!-- x-release-please-start-version -->
 
 ```sh
-go get -u 'github.com/brennoo/findcep-go@v0.0.1-alpha.7'
+go get -u 'github.com/brennoo/findcep-go@v0.0.1-alpha.8'
 ```
 
 <!-- x-release-please-end -->
