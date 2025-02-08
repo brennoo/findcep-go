@@ -27,7 +27,7 @@ func TestLocalidadeEstadoCidadeBairroList(t *testing.T) {
 	_, err := client.Localidades.Estado.Cidade.Bairros.List(
 		context.TODO(),
 		"sp",
-		"øq-++-2,Kä'V",
+		"bebedouro",
 	)
 	if err != nil {
 		var apierr *findcep.Error
