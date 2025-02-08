@@ -27,7 +27,7 @@ func TestLocalidadeEstadoCidadeIbgeGet(t *testing.T) {
 	_, err := client.Localidades.Estado.Cidade.Ibge.Get(
 		context.TODO(),
 		"sp",
-		"øq-++-2,Kä'V",
+		"bebedouro",
 	)
 	if err != nil {
 		var apierr *findcep.Error
