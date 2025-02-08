@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.1.0-alpha.1 (2025-02-08)
+
+Full Changelog: [v0.0.1-alpha.8...v0.1.0-alpha.1](https://github.com/brennoo/findcep-go/compare/v0.0.1-alpha.8...v0.1.0-alpha.1)
+
+### Features
+
+* **client:** send `X-Stainless-Timeout` header ([#33](https://github.com/brennoo/findcep-go/issues/33)) ([2f27c18](https://github.com/brennoo/findcep-go/commit/2f27c18816e67e73e8518061398d886460a19017))
+
+
+### Bug Fixes
+
+* fix early cancel when RequestTimeout is provided for streaming requests ([#35](https://github.com/brennoo/findcep-go/issues/35)) ([bf64dfa](https://github.com/brennoo/findcep-go/commit/bf64dfa5c7f92cca9e2084c615059722c08d57e1))
+
+
+### Chores
+
+* add UnionUnmarshaler for responses that are interfaces ([#34](https://github.com/brennoo/findcep-go/issues/34)) ([9d3499a](https://github.com/brennoo/findcep-go/commit/9d3499a9eb773b77d75d5f71d46e3f5353e13b82))
+* **internal:** codegen related update ([#31](https://github.com/brennoo/findcep-go/issues/31)) ([c2db1b3](https://github.com/brennoo/findcep-go/commit/c2db1b38ea244d9c6b08f92ed3ed5e9a953982fe))
+* minor change to tests ([#36](https://github.com/brennoo/findcep-go/issues/36)) ([2bd9a45](https://github.com/brennoo/findcep-go/commit/2bd9a45d65f90938751cd2ca21ef0c05b2cb0a6a))
+
 ## 0.0.1-alpha.8 (2025-02-01)
 
 Full Changelog: [v0.0.1-alpha.7...v0.0.1-alpha.8](https://github.com/brennoo/findcep-go/compare/v0.0.1-alpha.7...v0.0.1-alpha.8)
