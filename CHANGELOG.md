@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.1.0-alpha.2 (2025-02-22)
+
+Full Changelog: [v0.1.0-alpha.1...v0.1.0-alpha.2](https://github.com/brennoo/findcep-go/compare/v0.1.0-alpha.1...v0.1.0-alpha.2)
+
+### Bug Fixes
+
+* **client:** don't truncate manually specified filenames ([#40](https://github.com/brennoo/findcep-go/issues/40)) ([b768020](https://github.com/brennoo/findcep-go/commit/b76802041dda18d22bdad29538dfd74d13d66ee9))
+* do not call path.Base on ContentType ([#38](https://github.com/brennoo/findcep-go/issues/38)) ([bccaaaf](https://github.com/brennoo/findcep-go/commit/bccaaaf8ad6b216f493e85cfe925932a8d61ebbd))
+
+
+### Chores
+
+* **internal:** fix devcontainers setup ([#41](https://github.com/brennoo/findcep-go/issues/41)) ([83471a7](https://github.com/brennoo/findcep-go/commit/83471a7ef8ca1afd6a9949d595fa6e39f34e8bad))
+
 ## 0.1.0-alpha.1 (2025-02-08)
 
 Full Changelog: [v0.0.1-alpha.8...v0.1.0-alpha.1](https://github.com/brennoo/findcep-go/compare/v0.0.1-alpha.8...v0.1.0-alpha.1)
