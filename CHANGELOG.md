@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.3 (2025-02-28)
+
+Full Changelog: [v0.1.0-alpha.2...v0.1.0-alpha.3](https://github.com/brennoo/findcep-go/compare/v0.1.0-alpha.2...v0.1.0-alpha.3)
+
+### Documentation
+
+* update URLs from stainlessapi.com to stainless.com ([#42](https://github.com/brennoo/findcep-go/issues/42)) ([6b0954d](https://github.com/brennoo/findcep-go/commit/6b0954dc0c2f291d4dd586ba45ba4d04499be99b))
+
 ## 0.1.0-alpha.2 (2025-02-22)
 
 Full Changelog: [v0.1.0-alpha.1...v0.1.0-alpha.2](https://github.com/brennoo/findcep-go/compare/v0.1.0-alpha.1...v0.1.0-alpha.2)
