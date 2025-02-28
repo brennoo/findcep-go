@@ -5,7 +5,7 @@
 The Findcep Go library provides convenient access to [the Findcep REST
 API](https://docs.findcep.com) from applications written in Go. The full API of this library can be found in [api.md](api.md).
 
-It is generated with [Stainless](https://www.stainlessapi.com/).
+It is generated with [Stainless](https://www.stainless.com/).
 
 ## Installation
 
@@ -24,7 +24,7 @@ Or to pin the version:
 <!-- x-release-please-start-version -->
 
 ```sh
-go get -u 'github.com/brennoo/findcep-go@v0.1.0-alpha.2'
+go get -u 'github.com/brennoo/findcep-go@v0.1.0-alpha.3'
 ```
 
 <!-- x-release-please-end -->
