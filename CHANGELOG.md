@@ -1,5 +1,31 @@
 # Changelog
 
+## 0.1.0-alpha.3 (2025-03-14)
+
+Full Changelog: [v0.1.0-alpha.2...v0.1.0-alpha.3](https://github.com/brennoo/findcep-go/compare/v0.1.0-alpha.2...v0.1.0-alpha.3)
+
+### Features
+
+* add SKIP_BREW env var to ./scripts/bootstrap ([#46](https://github.com/brennoo/findcep-go/issues/46)) ([488e875](https://github.com/brennoo/findcep-go/commit/488e875936d1a18630d45128a78ce7fb837808a8))
+* **client:** accept RFC6838 JSON content types ([#47](https://github.com/brennoo/findcep-go/issues/47)) ([4f76c19](https://github.com/brennoo/findcep-go/commit/4f76c1925f3543b10dffaeb3ab7e61911a2eb75f))
+* **client:** allow custom baseurls without trailing slash ([#45](https://github.com/brennoo/findcep-go/issues/45)) ([df7e53e](https://github.com/brennoo/findcep-go/commit/df7e53ec69b596f1771aa089073c5ef71e96126a))
+* **client:** improve default client options support ([#49](https://github.com/brennoo/findcep-go/issues/49)) ([8deff45](https://github.com/brennoo/findcep-go/commit/8deff4568dc6146539769a1c2048e118483d56d8))
+
+
+### Chores
+
+* **internal:** remove extra empty newlines ([#50](https://github.com/brennoo/findcep-go/issues/50)) ([5caa453](https://github.com/brennoo/findcep-go/commit/5caa453f06ab3ff064eaaf8477328b037842d04b))
+
+
+### Documentation
+
+* update URLs from stainlessapi.com to stainless.com ([#42](https://github.com/brennoo/findcep-go/issues/42)) ([6b0954d](https://github.com/brennoo/findcep-go/commit/6b0954dc0c2f291d4dd586ba45ba4d04499be99b))
+
+
+### Refactors
+
+* tidy up dependencies ([#48](https://github.com/brennoo/findcep-go/issues/48)) ([dfba88f](https://github.com/brennoo/findcep-go/commit/dfba88f0c456b8c4a09c20c593c3150fc46918db))
+
 ## 0.1.0-alpha.2 (2025-02-22)
 
 Full Changelog: [v0.1.0-alpha.1...v0.1.0-alpha.2](https://github.com/brennoo/findcep-go/compare/v0.1.0-alpha.1...v0.1.0-alpha.2)
