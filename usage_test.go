@@ -26,6 +26,7 @@ func TestUsage(t *testing.T) {
 	endereco, err := client.Enderecos.Pesquisa(context.TODO(), findcep.EnderecoPesquisaParams{})
 	if err != nil {
 		t.Error(err)
+		return
 	}
 	t.Logf("%+v\n", endereco.Hits)
 }
