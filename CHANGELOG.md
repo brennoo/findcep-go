@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.1.0-alpha.4 (2025-03-27)
+
+Full Changelog: [v0.1.0-alpha.3...v0.1.0-alpha.4](https://github.com/brennoo/findcep-go/compare/v0.1.0-alpha.3...v0.1.0-alpha.4)
+
+### Bug Fixes
+
+* **test:** return early after test failure ([#54](https://github.com/brennoo/findcep-go/issues/54)) ([03e075c](https://github.com/brennoo/findcep-go/commit/03e075cebb5b59168afdfd19edbbe618b6ab649f))
+
+
+### Chores
+
+* **docs:** improve security documentation ([#52](https://github.com/brennoo/findcep-go/issues/52)) ([c5d32d9](https://github.com/brennoo/findcep-go/commit/c5d32d97e82924d4d350dd8dcce667a0d1365952))
+* fix typos ([#55](https://github.com/brennoo/findcep-go/issues/55)) ([fd1e8ee](https://github.com/brennoo/findcep-go/commit/fd1e8ee26d5d5ce0ec3d77f187e5871c94dbb3dd))
+
 ## 0.1.0-alpha.3 (2025-03-14)
 
 Full Changelog: [v0.1.0-alpha.2...v0.1.0-alpha.3](https://github.com/brennoo/findcep-go/compare/v0.1.0-alpha.2...v0.1.0-alpha.3)
