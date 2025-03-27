@@ -1,2 +1,4 @@
 configured_endpoints: 20
 openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/personal-brennoo%2Ffindcep-c366e0c04c920a8b68e1146e2f8b7d65ed9e6fa83bface496e7ad8d7a56dab2a.yml
+openapi_spec_hash: 740cbe611d58bd6bcb3ddf97048bcc3d
+config_hash: 476343e41530123544cdf7548c5dfcef
