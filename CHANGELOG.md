@@ -1,5 +1,41 @@
 # Changelog
 
+## 0.1.0-alpha.4 (2025-05-14)
+
+Full Changelog: [v0.1.0-alpha.3...v0.1.0-alpha.4](https://github.com/brennoo/findcep-go/compare/v0.1.0-alpha.3...v0.1.0-alpha.4)
+
+### Features
+
+* **client:** add support for endpoint-specific base URLs in python ([fc48b8d](https://github.com/brennoo/findcep-go/commit/fc48b8dae93679b4cb5a2c6346af3ca33d621393))
+* **client:** add support for reading base URL from environment variable ([89efa3c](https://github.com/brennoo/findcep-go/commit/89efa3c659954e6f29d2bd6df12e3ed830edcaa9))
+* **client:** support custom http clients ([#57](https://github.com/brennoo/findcep-go/issues/57)) ([dd6fd65](https://github.com/brennoo/findcep-go/commit/dd6fd659d2fd6c3509d2ca528b97c3fc63b4200c))
+
+
+### Bug Fixes
+
+* **client:** clean up reader resources ([b96d029](https://github.com/brennoo/findcep-go/commit/b96d02902f38bcc8e8f6551ddfac75620731eb6e))
+* **client:** correctly update body in WithJSONSet ([6b67c9b](https://github.com/brennoo/findcep-go/commit/6b67c9b0862ac6c8d4cc2ee981d6fcd5935f75a4))
+* **client:** return error on bad custom url instead of panic ([#56](https://github.com/brennoo/findcep-go/issues/56)) ([be98137](https://github.com/brennoo/findcep-go/commit/be98137ffa9fc445285c26dca085196e5e16f40f))
+* handle empty bodies in WithJSONSet ([1f26814](https://github.com/brennoo/findcep-go/commit/1f2681475c6fe78de38e86ef9f40e4858db4055d))
+* **test:** return early after test failure ([#54](https://github.com/brennoo/findcep-go/issues/54)) ([03e075c](https://github.com/brennoo/findcep-go/commit/03e075cebb5b59168afdfd19edbbe618b6ab649f))
+
+
+### Chores
+
+* **ci:** add timeout thresholds for CI jobs ([6c42431](https://github.com/brennoo/findcep-go/commit/6c4243130d6ba36bc9f0f84d7a082bd3c7df6e64))
+* **ci:** only use depot for staging repos ([ef32723](https://github.com/brennoo/findcep-go/commit/ef3272355b9955d174211e755975202f3c9eec1a))
+* **docs:** document pre-request options ([7157046](https://github.com/brennoo/findcep-go/commit/7157046aa902c3a8ff7eb523e17a6c2408a9fcbf))
+* **docs:** improve security documentation ([#52](https://github.com/brennoo/findcep-go/issues/52)) ([c5d32d9](https://github.com/brennoo/findcep-go/commit/c5d32d97e82924d4d350dd8dcce667a0d1365952))
+* fix typos ([#55](https://github.com/brennoo/findcep-go/issues/55)) ([fd1e8ee](https://github.com/brennoo/findcep-go/commit/fd1e8ee26d5d5ce0ec3d77f187e5871c94dbb3dd))
+* **internal:** codegen related update ([6394b95](https://github.com/brennoo/findcep-go/commit/6394b95719d269bb948285b7092041d2ce563383))
+* **internal:** expand CI branch coverage ([e31a93c](https://github.com/brennoo/findcep-go/commit/e31a93c107be56fff4e2d50bfbf92d0106221f14))
+* **internal:** reduce CI branch coverage ([d1e33e0](https://github.com/brennoo/findcep-go/commit/d1e33e048ad46e88bd85c4bbc9780d13a9ace017))
+
+
+### Documentation
+
+* update documentation links to be more uniform ([dc28c2a](https://github.com/brennoo/findcep-go/commit/dc28c2a86f40e6cd238107ac804b9bb61eae6a25))
+
 ## 0.1.0-alpha.3 (2025-03-14)
 
 Full Changelog: [v0.1.0-alpha.2...v0.1.0-alpha.3](https://github.com/brennoo/findcep-go/compare/v0.1.0-alpha.2...v0.1.0-alpha.3)
