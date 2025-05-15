@@ -77,17 +77,17 @@ func (r bairrosJSON) RawJSON() string {
 	return r.raw
 }
 
-type Cidades []CidadesItem
+type Cidades []cidade
 
-type CidadesItem struct {
-	HashKey string          `json:"hash_key"`
-	Nome    string          `json:"nome"`
-	URLKey  string          `json:"url_key"`
-	JSON    cidadesItemJSON `json:"-"`
+type cidade struct {
+	HashKey string     `json:"hash_key"`
+	Nome    string     `json:"nome"`
+	URLKey  string     `json:"url_key"`
+	JSON    cidadeJSON `json:"-"`
 }
 
-// cidadesItemJSON contains the JSON metadata for the struct [CidadesItem]
-type cidadesItemJSON struct {
+// cidadeJSON contains the JSON metadata for the struct [cidade]
+type cidadeJSON struct {
 	HashKey     apijson.Field
 	Nome        apijson.Field
 	URLKey      apijson.Field
@@ -95,25 +95,25 @@ type cidadesItemJSON struct {
 	ExtraFields map[string]apijson.Field
 }
 
-func (r *CidadesItem) UnmarshalJSON(data []byte) (err error) {
+func (r *cidade) UnmarshalJSON(data []byte) (err error) {
 	return apijson.UnmarshalRoot(data, r)
 }
 
-func (r cidadesItemJSON) RawJSON() string {
+func (r cidadeJSON) RawJSON() string {
 	return r.raw
 }
 
-type Estados []EstadosItem
+type Estados []estado
 
-type EstadosItem struct {
-	Nome   string            `json:"nome"`
-	Region EstadosItemRegion `json:"region"`
-	Sigla  string            `json:"sigla"`
-	JSON   estadosItemJSON   `json:"-"`
+type estado struct {
+	Nome   string        `json:"nome"`
+	Region EstadosRegion `json:"region"`
+	Sigla  string        `json:"sigla"`
+	JSON   estadoJSON    `json:"-"`
 }
 
-// estadosItemJSON contains the JSON metadata for the struct [EstadosItem]
-type estadosItemJSON struct {
+// estadoJSON contains the JSON metadata for the struct [estado]
+type estadoJSON struct {
 	Nome        apijson.Field
 	Region      apijson.Field
 	Sigla       apijson.Field
@@ -121,34 +121,33 @@ type estadosItemJSON struct {
 	ExtraFields map[string]apijson.Field
 }
 
-func (r *EstadosItem) UnmarshalJSON(data []byte) (err error) {
+func (r *estado) UnmarshalJSON(data []byte) (err error) {
 	return apijson.UnmarshalRoot(data, r)
 }
 
-func (r estadosItemJSON) RawJSON() string {
+func (r estadoJSON) RawJSON() string {
 	return r.raw
 }
 
-type EstadosItemRegion struct {
-	Nome  string                `json:"nome"`
-	Sigla string                `json:"sigla"`
-	JSON  estadosItemRegionJSON `json:"-"`
+type EstadosRegion struct {
+	Nome  string            `json:"nome"`
+	Sigla string            `json:"sigla"`
+	JSON  estadosRegionJSON `json:"-"`
 }
 
-// estadosItemRegionJSON contains the JSON metadata for the struct
-// [EstadosItemRegion]
-type estadosItemRegionJSON struct {
+// estadosRegionJSON contains the JSON metadata for the struct [EstadosRegion]
+type estadosRegionJSON struct {
 	Nome        apijson.Field
 	Sigla       apijson.Field
 	raw         string
 	ExtraFields map[string]apijson.Field
 }
 
-func (r *EstadosItemRegion) UnmarshalJSON(data []byte) (err error) {
+func (r *EstadosRegion) UnmarshalJSON(data []byte) (err error) {
 	return apijson.UnmarshalRoot(data, r)
 }
 
-func (r estadosItemRegionJSON) RawJSON() string {
+func (r estadosRegionJSON) RawJSON() string {
 	return r.raw
 }
 
